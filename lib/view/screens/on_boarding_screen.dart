@@ -50,6 +50,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         dotsCount: _controller.listOnBoarding.length,
                         position: currentIndex,
                         decorator: DotsDecorator(
+
                           size: const Size.square(9.0),
                           activeSize: const Size(18.0, 9.0),
                           activeShape: RoundedRectangleBorder(
